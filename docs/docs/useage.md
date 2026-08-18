@@ -2,4 +2,4 @@
 
 The `Calculator` class provides basic mathematical operations.
 
-See the [API reference](api/FakeLibrary.Calculator.html) for details.
+See the [API reference](../api/Tools.Calculator.html) for details.

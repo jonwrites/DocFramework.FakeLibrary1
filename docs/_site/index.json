@@ -1,0 +1,32 @@
+{
+  "api/Tools.Calculator.html": {
+    "href": "api/Tools.Calculator.html",
+    "title": "Class Calculator | FakeLibrary1",
+    "summary": "Class Calculator Namespace Tools Assembly FakeLibrary.dll Provides simple mathematical operations. public class Calculator Inheritance object Calculator Inherited Members object.GetType() object.MemberwiseClone() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() Constructors Calculator() public Calculator() Methods Add(int, int) Adds two numbers. public int Add(int a, int b) Parameters a int b int Returns int"
+  },
+  "api/Tools.html": {
+    "href": "api/Tools.html",
+    "title": "Namespace Tools | FakeLibrary1",
+    "summary": "Namespace Tools Classes Calculator Provides simple mathematical operations."
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | FakeLibrary1",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | FakeLibrary1",
+    "summary": "Introduction"
+  },
+  "docs/useage.html": {
+    "href": "docs/useage.html",
+    "title": "Usage | FakeLibrary1",
+    "summary": "Usage The Calculator class provides basic mathematical operations. See the API reference for details."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | FakeLibrary1",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

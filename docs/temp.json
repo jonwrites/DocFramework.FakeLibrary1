@@ -1,29 +1,30 @@
 {
   "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+
   "metadata": [
     {
       "src": [
         {
-          "src": "../src/FakeLibrary/bin/Debug/net9.0",
+          "src": "../artifacts",
           "files": [
-            "**/*.dll"
+            "MyLibrary.dll",
+            "MyOtherLibrary.dll"
           ]
         }
       ],
       "dest": "api"
     }
   ],
+
   "build": {
     "content": [
       {
         "files": [
           "**/*.{md,yml}"
-        ],
-        "exclude": [
-          "_site/**"
         ]
       }
     ],
+
     "resource": [
       {
         "files": [
@@ -31,14 +32,17 @@
         ]
       }
     ],
+
     "output": "_site",
+
     "template": [
       "default",
       "modern"
     ],
+
     "globalMetadata": {
-      "_appName": "FakeLibrary1",
-      "_appTitle": "FakeLibrary1",
+      "_appName": "DLL/XML Documentation Test",
+      "_appTitle": "DLL/XML Documentation Test",
       "_enableSearch": true,
       "pdf": true
     }

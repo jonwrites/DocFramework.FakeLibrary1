@@ -1,0 +1,48 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Tools
+  name: Tools
+  href: api/Tools.html
+  commentId: N:Tools
+  fullName: Tools
+  nameWithType: Tools
+- uid: Tools.Calculator
+  name: Calculator
+  href: api/Tools.Calculator.html
+  commentId: T:Tools.Calculator
+  fullName: Tools.Calculator
+  nameWithType: Calculator
+- uid: Tools.Calculator.#ctor
+  name: Calculator()
+  href: api/Tools.Calculator.html#Tools_Calculator__ctor
+  commentId: M:Tools.Calculator.#ctor
+  name.vb: New()
+  fullName: Tools.Calculator.Calculator()
+  fullName.vb: Tools.Calculator.New()
+  nameWithType: Calculator.Calculator()
+  nameWithType.vb: Calculator.New()
+- uid: Tools.Calculator.#ctor*
+  name: Calculator
+  href: api/Tools.Calculator.html#Tools_Calculator__ctor_
+  commentId: Overload:Tools.Calculator.#ctor
+  name.vb: New
+  fullName: Tools.Calculator.Calculator
+  fullName.vb: Tools.Calculator.New
+  nameWithType: Calculator.Calculator
+  nameWithType.vb: Calculator.New
+- uid: Tools.Calculator.Add(System.Int32,System.Int32)
+  name: Add(int, int)
+  href: api/Tools.Calculator.html#Tools_Calculator_Add_System_Int32_System_Int32_
+  commentId: M:Tools.Calculator.Add(System.Int32,System.Int32)
+  name.vb: Add(Integer, Integer)
+  fullName: Tools.Calculator.Add(int, int)
+  fullName.vb: Tools.Calculator.Add(Integer, Integer)
+  nameWithType: Calculator.Add(int, int)
+  nameWithType.vb: Calculator.Add(Integer, Integer)
+- uid: Tools.Calculator.Add*
+  name: Add
+  href: api/Tools.Calculator.html#Tools_Calculator_Add_
+  commentId: Overload:Tools.Calculator.Add
+  fullName: Tools.Calculator.Add
+  nameWithType: Calculator.Add

@@ -1,0 +1,10 @@
+### YamlMime:TableOfContent
+items:
+- uid: Tools
+  name: Tools
+  type: Namespace
+  items:
+  - uid: Tools.Calculator
+    name: Calculator
+    type: Class
+memberLayout: SamePage
