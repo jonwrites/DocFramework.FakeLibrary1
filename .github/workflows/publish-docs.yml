@@ -5,14 +5,15 @@ on:
     branches:
       - main
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    env:
+      DOC_VERSION: v1.0
+
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout repository
@@ -37,27 +38,13 @@ jobs:
         working-directory: docs
         run: docfx build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Publish documentation to Azure
+        uses: azure/cli@v2
         with:
-          path: 'docs/_site'
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    permissions:
-      pages: write
-      id-token: write
-
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          inlineScript: |
+            az storage blob upload-batch \
+              --account-name "${{ secrets.AZURE_STORAGE_ACCOUNT }}" \
+              --account-key "${{ secrets.AZURE_STORAGE_KEY }}" \
+              --destination '$web' \
+              --destination-path "${{ env.DOC_VERSION }}" \
+              --source 'docs/_site'
