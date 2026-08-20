@@ -4,7 +4,7 @@
     {
       "src": [
         {
-          "src": "../src/FakeLibrary/bin/Debug/net9.0",
+          "src": "../src/FakeLibrary/bin/Release/net9.0",
           "files": [
             "**/*.dll"
           ]
