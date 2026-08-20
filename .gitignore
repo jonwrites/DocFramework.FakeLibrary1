@@ -47,6 +47,9 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+docs/api/
+docs/_site/
+
 # Build results on 'Bin' directories
 **/[Bb]in/*
 # Uncomment if you have tasks that rely on *.refresh files to move binaries
@@ -427,3 +430,4 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/docs/docfx-build-and-serve.ps1

@@ -1,6 +1,0 @@
-{
-  "Tools": "Tools.yml",
-  "Tools.Calculator": "Tools.Calculator.yml",
-  "Tools.Calculator.#ctor": "Tools.Calculator.yml",
-  "Tools.Calculator.Add(System.Int32,System.Int32)": "Tools.Calculator.yml"
-}
