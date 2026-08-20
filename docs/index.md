@@ -2,5 +2,7 @@
 _layout: landing
 ---
 
-# **FAKELIBRARY HOMEPAGE v1.0**.
+# **FAKELIBRARY HOMEPAGE v2.0**.
+
+This version has text here.
 
