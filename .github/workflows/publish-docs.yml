@@ -47,5 +47,5 @@ jobs:
               --account-key "${{ secrets.AZURE_STORAGE_KEY }}" \
               --destination '$web' \
               --destination-path "${{ env.DOC_VERSION }}" \
-              --source 'docs/_site'
+              --source 'docs/_site' \
               --overwrite
