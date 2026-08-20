@@ -8,6 +8,3 @@ JLib Tools is a small shared utility library providing common functionality for 
 
 [Introduction](docs/introduction.md)
 
-## New is this version
-
-[TextTranformer](api/JLib.Tools.TextTransformer.html) has a new method!
