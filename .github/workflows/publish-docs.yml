@@ -48,3 +48,4 @@ jobs:
               --destination '$web' \
               --destination-path "${{ env.DOC_VERSION }}" \
               --source 'docs/_site'
+              --overwrite
