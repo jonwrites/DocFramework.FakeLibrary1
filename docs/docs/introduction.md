@@ -8,4 +8,4 @@ The library is deliberately small and has no application-specific responsibiliti
 
 ## API reference
 
-The automatically generated [API reference](../api/index.html) provides detailed documentation for the classes and members exposed by JLib Tools.
+The automatically generated [API reference](../api/JLib.Tools.html) provides detailed documentation for the classes and members exposed by JLib Tools.

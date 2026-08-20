@@ -6,4 +6,4 @@ _layout: landing
 
 JLib Tools is a small shared utility library providing common functionality for applications developed using the JLib platform.
 
-[Introduction](introduction.md)
+[Introduction](docs/introduction.md)

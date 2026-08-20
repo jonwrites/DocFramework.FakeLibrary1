@@ -27,4 +27,4 @@ var result = transformer.ToUpper("hello world");
 // HELLO WORLD
 ```
 
-See the [API reference](../api/index.html) for the complete list of available types and members.
+See the [API reference](../api/JLib.Tools.html) for the complete list of available types and members.
