@@ -2,7 +2,8 @@
 _layout: landing
 ---
 
-# **FAKELIBRARY HOMEPAGE v2.0**.
+# JLib Tools - v1.0
 
-This version has text here.
+JLib Tools is a small shared utility library providing common functionality for applications developed using the JLib platform.
 
+[Introduction](introduction.md)

@@ -1,5 +1,3 @@
-# Usage
+# More information
 
-The `Calculator` class provides basic mathematical operations which only I know about hehehe.
-
-See the [API reference](../api/Tools.Calculator.html) for details.
+There are so many other things I could tell you about this library but I just don't have the time.
