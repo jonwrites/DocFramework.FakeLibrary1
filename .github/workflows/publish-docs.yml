@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      DOC_VERSION: v1.1.0
+      DOC_VERSION: v1.0.0
 
     permissions:
       contents: read
